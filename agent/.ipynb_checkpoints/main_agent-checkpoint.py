@@ -1,20 +1,10 @@
-from langchain.agents import Tool, initialize_agent
-from langchain.llms import OpenAI
-from tools.csv_tool import CSVSearchTool
+from langchain.agents import initialize_agent
+# from langchain_community.llms import OpenAI
+from langchain_openai import OpenAI
+from tools.csv_tool import csv_tool  # ✅ this is the Tool instance
 
-# Initialize your tool
-csv_tool = CSVSearchTool("data/sample.csv")
+tools = [csv_tool]
 
-tools = [
-    Tool(
-        name="CSV Search",
-        func=csv_tool.search,
-        description="Useful for searching internal data based on a keyword or phrase"
-    )
-]
-
-# Set up LLM
 llm = OpenAI(temperature=0)
 
-# Build agent
 agent = initialize_agent(tools, llm, agent="zero-shot-react-description", verbose=True)
