@@ -1,0 +1,21 @@
+ProjectID,ProjectName,Status,Owner,City,StartDate,DueDate
+P001,Website Redesign,Open,Alice Smith,New York,2023-01-10,2023-03-15
+P002,Customer Onboarding Automation,Closed,Bob Johnson,Chicago,2023-02-01,2023-04-20
+P003,Sales Forecasting,In Progress,Carol Davis,Omaha,2023-03-05,2023-05-30
+P004,Employee Portal,Open,Dan Brown,San Francisco,2023-01-25,2023-04-10
+P005,Product Launch,Open,Eve White,New York,2023-04-01,2023-06-15
+P006,Inventory Management System,Closed,Frank Green,Chicago,2023-01-12,2023-03-20
+P007,Marketing Analytics,Open,Grace Lee,Omaha,2023-02-18,2023-04-25
+P008,Compliance Tracker,Open,Hank Miller,San Francisco,2023-03-01,2023-06-01
+P009,Vendor Integration,In Progress,Ivy Walker,New York,2023-01-30,2023-03-30
+P010,Training Platform Migration,Closed,Jack Hall,Chicago,2023-02-15,2023-05-01
+P011,Internal Chatbot,Open,Karen Adams,Omaha,2023-04-10,2023-07-10
+P012,Email Campaign Scheduler,Open,Larry Young,San Francisco,2023-03-22,2023-06-20
+P013,Data Governance Audit,In Progress,Mary King,New York,2023-04-01,2023-07-15
+P014,Budget Forecast Tool,Closed,Nina Scott,Chicago,2023-02-28,2023-05-10
+P015,Client Portal Enhancements,Open,Oscar Reed,Omaha,2023-03-10,2023-06-05
+P016,Accessibility Compliance,Open,Paula Turner,San Francisco,2023-01-20,2023-03-25
+P017,Cloud Cost Dashboard,In Progress,Quincy Cox,New York,2023-04-05,2023-07-01
+P018,Legal Document Manager,Closed,Rachel Gray,Chicago,2023-03-02,2023-05-22
+P019,Custom CRM Integration,Open,Sam Wells,Omaha,2023-02-07,2023-04-17
+P020,HR Feedback App,Open,Tina Bell,San Francisco,2023-01-15,2023-03-29
